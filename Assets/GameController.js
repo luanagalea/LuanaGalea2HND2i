@@ -5,8 +5,8 @@ var backgroundImage1:Texture2D;//variable to store the background image for leve
 var backgroundImage2:Texture2D;
 var backgroundImage3:Texture2D;
 
-static var rows:int=5;//game starts with 2 rows of aliens.
-static var cols:int=2;//game starts with 5 rows of aliens.
+static var rows:int=2;//game starts with 2 rows of aliens.
+static var cols:int=5;//game starts with 5 rows of aliens.
 
 var levelsPlayed:int=0;//game starts from level 0.
 
