@@ -29,7 +29,7 @@ function Update () {
 	
 	numberOfAliens = GameObject.FindGameObjectsWithTag("enemy").Length;//total number of enemies (aliens) in our scene.
 	
-	if (numberOfAliens <0)//if number of enemies (aliens ) is less or equal to 0 (means that you won the level).
+	if (numberOfAliens <=0)//if number of enemies (aliens ) is less or equal to 0 (means that you won the level).
 	{
 		levelsPlayed++;//increase level.
 		rows--;//add a row of enemies/aliens.
