@@ -17,7 +17,7 @@ function Update () {
 
 function OnGUI()
 {
-	GUI.Label (Rect (475,400,500,50), "Game Won");
+	GUI.Label (Rect (475,400,500,50), "Game Over");
 	if (GUI.Button(Rect(255,550,newButtonGoToMainMenuTexture.width,newButtonGoToMainMenuTexture.height),newButtonGoToMainMenuTexture))//button's image
 	{
 		Application.LoadLevel(0);//loading level 1.
