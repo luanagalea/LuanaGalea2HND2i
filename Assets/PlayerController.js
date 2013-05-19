@@ -34,8 +34,8 @@ function OnTriggerExit()
 function OnGUI()
 {
 	GUI.color = Color.black;//font color black.
-	GUI.Label(Rect(700,0,500,50),"Health: "+score);//to display health on top of screan.
-	GUI.Label(Rect(800,0,500,50),"Score: "+health);
+	GUI.Label(Rect(700,0,500,50),"Score: "+score);//to display health on top of screan.
+	GUI.Label(Rect(800,0,500,50),"Health: "+health);
 }
 
 
