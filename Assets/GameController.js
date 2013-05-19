@@ -32,7 +32,7 @@ function Update () {
 	if (numberOfAliens <=0)//if number of enemies (aliens ) is less or equal to 0 (means that you won the level).
 	{
 		levelsPlayed++;//increase level.
-		rows--;//add a row of enemies/aliens.
+		rows++;//add a row of enemies/aliens.
 		PlayerController.score = 0;//sets the score to 0 to start the new level from score 0.
 		Application.LoadLevel(2);//loads level 2 of the game.
 		print(levelsPlayed);//print level number.
